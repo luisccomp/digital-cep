@@ -1,0 +1,24 @@
+{
+    "name": "chuno/digital-cep",
+    "description": "A simple package that returns address info given zip code.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luís Carlos Sílva Júnior",
+            "email": "luisccomp@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">= 7.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "./src/"
+        },
+        "psr-4": {
+            "Luisccomp\\DigitalCep\\": "./src/"
+        }
+    }
+}
